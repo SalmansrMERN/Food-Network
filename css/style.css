@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.flexible_container {
+    display: flex;
+}
+
+section {
+    padding: 40px 50px 0;
+    margin-bottom: 80px;
+
+}
+
+/* =================== common css end ================== */
+
+/* ===================== menu part start ================ */
+#menu_part {
+    padding: 15px 50px;
+    background-attachment: fixed;
+    background: #FFFFFF;
+
+}
+
+.main_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_menu .logo {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: #B2385E;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main_menu ul {
+    display: flex;
+
+}
+
+.main_menu ul li a {
+    padding: 5px 15px;
+    color: #B2385E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-left: 25px;
+
+}
+
+/* ===================== menu part end ================== */
+
+/* ===================== header part start ================ */
+#header_part {
+    background: url(../images/header-bg.png) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.header_text {
+    width: 50%;
+    padding-top: 125px;
+}
+
+.header_img {
+    width: 50%;
+}
+
+.header_text h3 {
+    color: #B2385E;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
+.header_text h2 {
+    color: #B2385E;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+
+}
+
+.header_text h2 span {
+    color: #E72A40;
+
+}
+
+.header_text p {
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 0 40px;
+
+}
+
+.header_text a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background: linear-gradient(to right, #B2385E, #E72A40);
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.header_img img {
+    width: 85%;
+    height: auto;
+    padding-left: 40px;
+}
+
+/* ===================== header part end ==================== */
+
+/* ===================== about part start ================ */
+#about_part {
+    background: url(../images/cover.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about_text {
+    width: 60%;
+    padding-top: 50px;
+
+}
+
+.about_img {
+    width: 40%;
+}
+
+.about_text h3 {
+    color: #353535;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    text-transform: capitalize;
+
+}
+
+.about_text p {
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 0 30px;
+
+}
+
+.about_text a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background: linear-gradient(to right, #B2385E, #E72A40);
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+
+.about_img img {
+    width: 80%;
+    height: auto;
+    padding-left: 90px;
+}
+
+/* ===================== about part end ================== */
+
+/* =============== receipes part start ==================== */
+#receipe_part {
+    background: url(../images/latest-work-bg.png) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.receipe_title {
+    padding-bottom: 50px;
+
+}
+
+.receipe_title h3 {
+    color: #353535;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.receipe_title p {
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 20px 279px 0;
+}
+
+.receipe_col {
+    width: 32.14%;
+    margin-right: 40px;
+    background: #fff;
+    box-shadow: 1px 5px 22px 4px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.receipe_col h3 {
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 20px 0;
+
+}
+
+.receipe_col p {
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.receipe_col img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* =============== receipes part end ==================== */
+
+/* ============== client part start =================== */
+.client_row {
+    padding: 30px;
+    box-shadow: 1px 5px 10px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.client_col {
+    width: 33%;
+    border: 0;
+    text-align: center;
+
+}
+
+.client_col h1 {
+    font-size: 33px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+
+.client_col h5 {
+    font-size: 15px;
+    color: #353535;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+/* =============== client part end =================== */
+
+/* =================== contact part start =================== */
+#contact_part {
+    padding-bottom: 90px;
+    background: url(../images/cover2.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.contact_text {
+    text-align: center;
+
+}
+
+.contact_text h2 {
+    color: black;
+    font-size: 37px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.contact_text h5 {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 47px;
+
+}
+
+.contact_form {
+    display: inline-block;
+    text-align: center;
+}
+
+.contact_form input {
+    display: block;
+    width: 555px;
+    height: 55px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.contact_form input:nth-child(3) {
+    width: 555px;
+    height: 155px;
+    padding-top: 0;
+
+}
+
+.contact_form button {
+    padding: 10px 40px;
+    text-align: center;
+    border: 0;
+    background: linear-gradient(to right, #B2385E, #E72A40);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.contact_form button a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+
+}
+
+::placeholder {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+/* =================== contact part end =================== */
+
+/* =================== footer part start =================== */
+#footer_part {
+    padding-bottom: 40px;
+    background: #191919;
+    margin-bottom: 0 !important;
+
+}
+
+.footer_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.footer_col {
+    width: 27%;
+    margin-left: 75px;
+    text-align: center;
+}
+
+.footer_col:nth-child(4) {
+    margin-right: 0;
+
+}
+
+.footer_text {
+    width: 200px;
+    text-align: center;
+
+}
+
+.footer_title h2 {
+    color: #fefefe;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+.footer_text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Oswald', sans-serif;
+    width: 388px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.footer_text p span {
+    display: block;
+
+
+}
+
+.footer_bottom {
+    padding: 110px 0 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer_bottom h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #5B5B5B;
+    font-family: 'Zen Tokyo Zoo', cursive;
+
+}
+
+.footer_bottom h3 span {
+    color: #B2385E;
+
+}
+
+.footer_bottom p {
+    color: rgb(88, 88, 88);
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+/* =================== footer part end =================== */
